@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home_Work_Liman_Yuriy_№7</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main33.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+</head>
+<body>
+<h1>Введите координаты точки (x,y)</h1>
+<div id="enter"></div>
+Введите х <input id="coordinate_x"><br>
+Введите y <input id="coordinate_y"><br>
+<button id="coordinate_x_y">Ввод</button>
+<h3>Это координатная точка>></h3>
+<script>
+    window.onload = function () {
+            var elems = document.body.children;
+            var point = elems[1];
+            var fieldX = elems[2];
+            var fieldY = elems[4];
+        fieldX.onkeyup = function () {
+            point.style.left = (+this.value*100+ +498) + 'px';
+            }
+            fieldY.onkeyup = function () {
+                point.style.top = (+this.value*-100+ +428) + 'px';
+            }
+        }
+</script>
+        <script>
+    function area(){
+        var a = document.getElementById('coordinate_x').value;
+        var b = document.getElementById('coordinate_y').value;
+        var i = (Math.pow(a,2)+Math.pow(b,2));
+        if (a<=0 && b<=0 && b>=-a-2 || i<=Math.pow(1,2)) { alert( "Координаты в области")}
+        else { alert( "Не попал")}
+        }
+    document.getElementById('coordinate_x_y').addEventListener('click', area);
+</script>
+<canvas id='example'></canvas>
+<script>
+    var example = document.getElementById("example"),
+        ctx     = example.getContext('2d');
+    example.height = 800;
+    example.width  = 800;
+    ctx.beginPath();
+    ctx.arc(500, 300, 100, 0 , (Math.PI/180)*360);
+    ctx.stroke(); // *прорисован круг
+    ctx.moveTo(500, 700);
+    ctx.lineTo(500,100);
+    ctx.lineTo(490,120);
+    ctx.moveTo(500, 100);
+    ctx.lineTo(510, 120);
+    ctx.moveTo(200, 300);
+    ctx.lineTo(700, 300);
+    ctx.lineTo(680, 290);
+    ctx.moveTo(700, 300);
+    ctx.lineTo(680, 310);
+    ctx.moveTo(300, 300);
+    ctx.lineTo(500, 500);// *x
+    ctx.moveTo(700, 310);
+    ctx.lineTo(720, 320);
+    ctx.moveTo(720, 310);
+    ctx.lineTo(700, 320);
+    ctx.moveTo(550, 100);// *y
+    ctx.lineTo(530, 130);
+    ctx.moveTo(530, 100);
+    ctx.lineTo(540, 115);
+    ctx.stroke(); // *22
+</script>
+</body>
+</html>

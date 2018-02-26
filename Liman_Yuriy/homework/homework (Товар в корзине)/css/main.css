@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#enter
+{
+    width: 200px;
+    border-bottom: 2px solid royalblue;
+    padding-top: 20px;
+}
+#num_prod
+{
+    border: 1px solid green;
+}

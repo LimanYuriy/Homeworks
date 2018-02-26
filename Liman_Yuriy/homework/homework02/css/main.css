@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.full-wids {
+    width: 100%;
+    background-color: #3A3E41;
+    overflow: hidden;
+}
+.border
+{
+    border-bottom: 5px solid #494D50;
+    box-shadow: 0px 1px 0px #000000;
+}
+.container
+{
+    overflow: hidden;
+    max-width: 960px;
+    width: 100%;
+    margin: 0% auto;
+}
+.logo
+{
+    float: left;
+    margin-top: 3%;
+}
+nav
+{
+    overflow: hidden;
+}
+nav ul
+{
+    overflow: hidden;
+    float: right;
+    border-right: 1px solid #424547;
+    box-shadow:inset -1px 0px 0px #292C2D;
+}
+nav ul li
+{
+    float: left;
+    padding: 41px 20px;
+    text-decoration: none;
+    border-left: 1px solid #292C2D;
+    box-shadow:inset 1px 0px 0px #424547;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #D4D4D4;
+}
+nav ul li:hover
+{
+    background: #35373A
+}
+nav ul li:hover > a
+{
+    color:#6B889A;
+}
+#banner
+{
+    overflow: hidden;
+    margin-top: 3%;
+    }
+#banner img
+{
+    width: 100%;
+}
+.our_services
+{
+    overflow: hidden;
+    text-align: center;
+}
+.our_services h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.our_services p
+{
+       padding-top: 10px;
+       padding-bottom: 30px;
+       font-size: 20px;
+}
+.tabs {
+    overflow: hidden;
+    background-image: url(../images/repit.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+}
+.tabs .tab0
+{
+    overflow: hidden;
+    margin: 0% 31% 0% ;
+    border-left: 1px solid #C5C5C5;
+    margin-bottom: -1px;
+}
+.tab0 li
+{
+    float: left;
+    width: 119px ;
+    height: 28px ;
+    border-right: 1px solid #C5C5C5;
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+    list-style-type: none;
+    padding-top: 5px;
+    background: #F8F8F8;
+    font-weight: 600;
+    text-align: center;
+}
+.tab0 li:hover
+{
+        border-bottom: 1px solid #FFFFFF;
+}
+.tab0 li:hover
+{
+    color:#A1BCCE;
+}
+.tab0 li:hover
+{
+    border-bottom: 1px solid #FFFFFF;
+}
+#tab1 {
+    overflow: hidden;
+    border-top: 1px solid #C5C5C5;
+    padding-top: 30px;
+    line-height: 1.7;
+}
+#tab1 img {
+    float: left;
+    margin-right: 30px;
+}
+#tab1 h3 {
+     padding-bottom: 15px;
+}
+#tab1 p {
+
+    padding-bottom: 15px;
+    text-align: justify;
+    font-size: 13px;
+}
+#tab1 ul {
+    padding-bottom: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+#tab1 ul li:before {
+    content: "";
+    display: block;
+    background: url(../images/galka.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 6px 6px 0 0;
+}
+.project
+{
+    overflow: hidden;
+    background-image: url(../images/repit.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 40px;
+  }
+.project h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+.project p
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.project ul
+{
+    overflow: hidden;
+}
+.project ul li
+{
+    list-style: none;
+    float: left;
+    padding: 5px 5px 2px;
+}
+.project ul li img
+{
+    width: 100%;
+}
+.blog
+{
+    overflow: hidden;
+    background-image: url(../images/repit.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+.blog h2
+{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.article
+{
+    overflow: hidden;
+    padding-top: 30px;
+
+}
+
+article
+{
+
+    float: left;
+    width: 45%;
+    padding-bottom: 40px;
+    padding-right: 5%;
+}
+article p
+{
+    font-size: 12px;
+}
+article div
+{
+    overflow: hidden;
+}
+article div h4
+{
+    padding-bottom: 10px;
+}
+.date
+{
+    width: 60px;
+    background: #ECECEC;
+    border-radius: 50px;
+    float:inherit;
+    font-size: 16px;
+    line-height: 0.9;
+    padding: 15px 0px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.date h4
+{
+    overflow: hidden;
+    float: left;
+}
+
+.tags
+{
+    padding-top: 15px;
+    color: #9FBCCF;
+}
+article a
+{
+    color: #9FBCCF;
+}
+.customers
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.customers h2
+{
+    padding-bottom: 20px;
+}
+.customers ul
+{
+    padding-top: 30px;
+}
+
+.customers ul li
+{
+ list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+.date1
+{
+    color: #9FBCCF;
+    text-decoration: none;
+}
+.date2
+{
+       color: #9FBCCF;
+    }
+
+
+#footer
+{
+    overflow: hidden;
+    background-color: #3A3E41;
+    border-top: 8px solid #2F3336;
+    padding-top: 20px;
+
+}
+.footer_post
+{
+    overflow: hidden;
+    float: left;
+    width: 22%;
+    padding-right: 20px;
+}
+.footer_post h3
+{
+    color:#E3E3E1 ;
+}
+
+.footer_post ul
+{
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.7;
+}
+.footer_post ul li
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-image: url(../images/repit1.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.footer_post ul li:last-child
+{
+    background-image: none;
+}
+.footer_post ul li p
+{
+padding-bottom: 10px;
+    color: #BEC0BF;
+}
+.tw_post
+{
+    overflow: hidden;
+    width: 22%;
+    float: left;
+    padding-right: 20px;
+}
+.tw_post h3
+{
+    color:#E3E3E1 ;
+}
+.tw_post ul
+{
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.7;
+
+}
+.tw_post ul li
+{
+    color: #BEC0BF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-image: url(../images/repit1.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.tw_post ul li:last-child
+{
+    background:none
+}
+.tw_post ul li:before {
+    content: "";
+    display: block;
+    background: url(../images/galka1.png) no-repeat;
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.about_us
+{
+    overflow: hidden;
+    width: 22%;
+    float: left;
+    padding-right: 20px;
+}
+.about_us h3
+{
+    color:#E3E3E1 ;
+    padding-bottom: 15px;
+}
+.about_us p
+{
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.7;
+    color: #BEC0BF;
+}
+.about_us p:last-child
+{
+    padding-top: 30px;
+}
+.form
+{
+    overflow: hidden;
+    float: left;
+    width: 22%;
+    padding-right: 20px;
+}
+.form h3
+{
+    color:#E3E3E1 ;
+    padding-bottom: 15px;
+}
+.form form input[type="text"]
+{
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #2F3336;
+}
+.form form input[type="email"]
+{
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #2F3336;
+}
+.form form textarea
+{
+    resize: none;
+    height: 100%;
+    width: 100%;
+    background-color: #2F3336;
+}
+.form form input[type="submit"]
+{
+    margin-top: 10px;
+    width: 50%;
+    padding: 5px 0;
+    background-color: #87CEFA;
+    color: white;
+    font-size: 15px;
+    border: 1px solid #2F3336;
+    border-radius: 5px;
+}
+
+.Ikaros
+{
+    overflow: hidden;
+    border-top: 2px solid #23272A;
+    background-color: #2F3336;
+    margin-top: 20px;
+
+}
+.Ikaros p
+{
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.social
+{
+    overflow: hidden;
+    width: 50%;
+    padding: 20px 0px;
+    text-align: right;
+
+}
+.social li
+{
+    display: inline;
+    padding: 3px ;
+}
+.Ikaros_p
+{
+    padding: 20px 0px;
+    color: #C0C0C0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
