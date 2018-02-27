@@ -26,12 +26,12 @@ function matrix (size) {
     for (var i = 0; i < size; i++){
         matrix[i] = [];
         for (var j = 0; j < size; j++){
-            if (i==j) {matrix[i][j]=1;}
-            else if (i+j==9){matrix[i][j]=2;}
-            else if (3>=j && j<=i-1 && j<=-i+8){matrix[i][j]=6;}
-            else if (j>=6 && j>=-i+10 && j>=i+1){matrix[i][j]=4;}
-            else if (i>=6 && j>=-i+10 && j<=i-1){matrix[i][j]=5;}
-            else {matrix[i][j]=3;}}
+            if (i===j) {matrix[i][j]=1;}
+            else if (i+j===size-1){matrix[i][j]=2;}
+            else if (i>j && i+j+1<size){matrix[i][j]=6;}
+            else if (i<j && i+j+1<size){matrix[i][j]=3;}
+            else if (i>j && i+j+1>size){matrix[i][j]=5;}
+            else {matrix[i][j]=4;}}
     }
     console.log(matrix);
   return matrix;
@@ -42,8 +42,8 @@ function pascal (size) {
     for (var i = 0; i <size; i++){
         triangle[i] = [];
         for (var j = 0; j < size; j++){
-            if (i==j || j<=0) {triangle[i][j]=1;}
-            else if (j>=1 && i<=9 && j<=i-1){triangle[i][j]=+triangle[i-1][j]+ +triangle[i-1][j-1];}
+            if (i===j || j<=0) {triangle[i][j]=1;}
+            else if (j>=size-9 && i<=size-1 &&  size<=i-j+9){triangle[i][j]=+triangle[i-1][j]+ +triangle[i-1][j-1];}
         }
     } console.log(triangle);
   return triangle;
